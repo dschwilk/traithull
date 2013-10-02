@@ -1,10 +1,8 @@
 #! usr/bin/env python
 
 # File: traithull.py
-# $Revision: 1.4 $
-# $Date: 2007/12/14 16:33:23 $
-# Author: Dylan Schwilk (mail@pricklysoft.org)
-# Copyright (C) 2003 Dylan W. Schwilk
+# Author: Dylan Schwilk
+# Copyright 2003 Dylan W. Schwilk
 # www.pricklysoft.org
 
 ####################################################################
@@ -35,14 +33,14 @@ D.W. Schwilk and D.D. Ackerly. 2006. A trait-based test for habitat filtering:
 convex hull volume. Ecology 87: 1465--1471.
 """
 
-__version__ = "$Revision: 1.4 $"
-__author__ = '''Dylan Schwilk (point@pricklysoft.org)'''
+__version__ = "1.4"
+__author__ = '''Dylan Schwilk'''
 __needs__ = '2.3'
 
 import os.path
 import random
 import math
-import stats
+import stats # requires the included GNU stats module by Gary Strangman
 import logging
 logging.basicConfig(format='\n%(levelname)s:\n%(message)s\n')
 traithull_logger = logging.getLogger('bibstuff_logger')
