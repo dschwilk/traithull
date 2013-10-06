@@ -83,6 +83,7 @@ Output of "python traithull.py -h"
 
 Usage: traithull.py [options] [trait_file]
 
+'''
 Options:
   --version             show program's version number and exit
   -h, --help            show this help message and exit
@@ -98,7 +99,7 @@ Options:
                         version)
   -t, --total           Output total species pool results
   -v, --verbose         Verbose output
-    
+'''   
    
 References
 ----------
